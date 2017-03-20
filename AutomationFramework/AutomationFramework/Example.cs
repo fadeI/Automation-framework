@@ -24,7 +24,7 @@ namespace AutomationFramework
             query.SendKeys("BrowserStack");
             query.Submit();
             System.Threading.Thread.Sleep(5000);
-            Assert.AreEqual("BrowserStack - Google Search", driver.Title);
+            
 
         }
     }
